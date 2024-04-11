@@ -36,9 +36,9 @@ $result = pg_query($con, $sql);
             <tbody>
                 <?php while ($row = pg_fetch_assoc($result)) { ?>
                     <tr>
-                        <td><?php echo $row['doc']; ?></td>
+                        <td><?php echo $row['documento']; ?></td>
                         <td><?php echo $row['nombre']; ?></td>
-                        <td><?php echo $row['apellidos']; ?></td>
+                        <td><?php echo $row['apellido']; ?></td>
                         <td><?php echo $row['direccion']; ?></td>
                         <td><?php echo $row['celular']; ?></td>
                     </tr>
