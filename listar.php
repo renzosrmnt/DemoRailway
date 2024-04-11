@@ -41,6 +41,8 @@ $result = pg_query($con, $sql);
                         <td><?php echo $row['apellido']; ?></td>
                         <td><?php echo $row['direccion']; ?></td>
                         <td><?php echo $row['celular']; ?></td>
+                        <td><a href="eliminar.php?id=<?php echo $row['idpersona']; ?>" class="btn btn-danger btn-sm">Eliminar</a></td>
+                        <td><a href="editar.php?id=<?php echo $row['idpersona']; ?>" class="btn btn-primary btn-sm">Editar</a></td>
                     </tr>
                 <?php } ?>
             </tbody>
