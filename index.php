@@ -41,19 +41,19 @@
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Nro Documento</label>
-                  <input type="tex" name="doc" maxlength="8" class="form-control">
+                  <input type="text" name="doc" maxlength="8" class="form-control">
                 </div>
               </div>
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Nombre</label>
-                  <input type="tex" name="nom" class="form-control">
+                  <input type="text" name="nom" class="form-control">
                 </div>
               </div>
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Apellidos</label>
-                  <input type="tex" name="ape" class="form-control">
+                  <input type="text" name="ape" class="form-control">
                 </div>
               </div>
             </div>
@@ -61,13 +61,13 @@
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Direccion</label>
-                  <input type="tex" name="dir" class="form-control">
+                  <input type="text" name="dir" class="form-control">
                 </div>
               </div>
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Celular</label>
-                  <input type="tex" name="cel" class="form-control">
+                  <input type="text" name="cel" class="form-control">
                 </div>
               </div>
             </div>
