@@ -4,7 +4,7 @@ $con = conexion();
 
 $id = $_GET["id"];
 
-$sql = "SELECT * FROM alumno WHERE id = $id";
+$sql = "SELECT * FROM alumno WHERE idpersona = $id";
 $result = pg_query($con, $sql);
 $row = pg_fetch_assoc($result);
 ?>
